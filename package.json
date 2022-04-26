@@ -1,0 +1,22 @@
+{
+  "name": "mongoosetodolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "engines":{
+    "node":"v16.x"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "c4f9f1e6-81db-45ae-b721-04a24242ce4c",
+		"name": "mongoosetodokata-heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得所有待辦",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thawing-thicket-66758.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"thawing-thicket-66758",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新一筆待辦",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://thawing-thicket-66758.herokuapp.com/posts/6267ceca6261d85c106e64d3",
+					"protocol": "https",
+					"host": [
+						"thawing-thicket-66758",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts",
+						"6267ceca6261d85c106e64d3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除一筆待辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://thawing-thicket-66758.herokuapp.com/posts/6267ceca6261d85c106e64d3",
+					"protocol": "https",
+					"host": [
+						"thawing-thicket-66758",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts",
+						"6267ceca6261d85c106e64d3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增一筆待辦",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://thawing-thicket-66758.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"thawing-thicket-66758",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新一筆待辦",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://thawing-thicket-66758.herokuapp.com/posts/6267ceca6261d85c106e64d3",
+					"protocol": "https",
+					"host": [
+						"thawing-thicket-66758",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts",
+						"6267ceca6261d85c106e64d3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
